@@ -28,20 +28,20 @@ public class MainActivity extends AppCompatActivity {
 
   public void click1(View view) {
     Bundle bundle = new Bundle();
-    bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "MainActivity Button-1");
-    mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+    bundle.putString(Constants.BUTTON_NAME, "MainActivity Button-1");
+    mFirebaseAnalytics.logEvent(Constants.EVENT_CLICK, bundle);
   }
 
   public void click2(View view) {
     Bundle bundle = new Bundle();
-    bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "MainActivity Button-2");
-    mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+    bundle.putString(Constants.BUTTON_NAME, "MainActivity Button-2");
+    mFirebaseAnalytics.logEvent(Constants.EVENT_CLICK, bundle);
   }
 
   public void click3(View view) {
     Bundle bundle = new Bundle();
-    bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "MainActivity Button-3");
-    mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+    bundle.putString(Constants.BUTTON_NAME, "MainActivity Button-3");
+    mFirebaseAnalytics.logEvent(Constants.EVENT_CLICK, bundle);
   }
 
   public void clickNext(View view) {

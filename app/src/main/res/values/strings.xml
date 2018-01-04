@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Firebase Analytics</string>
+    <string name="app_version">1.0.0</string>
+
 </resources>
